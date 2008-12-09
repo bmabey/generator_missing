@@ -1,7 +1,10 @@
 GeneratorMissing
 ================
 
-A set of missing generators for rails apps
+A set of missing generators for rails apps, contains:
+- Library
+
+Rdoc: http://rdocul.us/repos/generator_missing/master/index.html
 
 Example
 =======
