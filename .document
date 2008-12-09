@@ -1,3 +1,4 @@
 README.rdoc
 lib/**/*.rb
+lib/**/USAGE
 MIT-LICENSE.txt

@@ -1,3 +1,13 @@
+# Generates a library file and a test for it
+# library goes into RAILS_ROOT/lib
+# test goes into test/unit
+#
+# Usage:
+# script/generate library library_name
+#
+# Will generate a class in lib/library_name
+# and a test in test/unit/library_name_test
+#
 class LibraryGenerator < Rails::Generator::NamedBase
 
   def manifest
