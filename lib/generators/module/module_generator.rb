@@ -26,7 +26,7 @@ class ModuleGenerator < Rails::Generator::NamedBase
   end
 
   protected
-    def banner
-      "Usage: #{$0} #{spec.name} Module"
-    end
+  def banner
+    "Usage: #{$0} #{spec.name} Module"
+  end
 end
