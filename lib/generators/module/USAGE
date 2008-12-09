@@ -2,7 +2,9 @@ Description:
     Stubs out a tested library. Pass the library name, either CamelCased or
     under_scored.
 
-    This generates a library class in lib, and a unit test in test/unit.
+    This generates a module in lib, and a unit test in test/unit.
+
+    The test case will have a mock object with the module mixed in
 
 Examples:
     `./script/generate library email_parser`
