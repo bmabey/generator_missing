@@ -5,11 +5,11 @@ A set of missing generators for rails apps, contains:
 - Library
 
 Rdoc: http://rdocul.us/repos/generator_missing/master/index.html
+Ticekts: http://gaffo.lighthouseapp.com/projects/21321-generator_missing/overview
 
 Example
 =======
 
 script/generate library library_name
-
 
 Copyright (c) 2008 Mike Gaffney, released under the MIT license
