@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class <%= class_name %>Mock
-  include <%= class_name %>
+  extend <%= class_name %>
 end
 
 class <%= class_name %>Test < Test::Unit::TestCase
