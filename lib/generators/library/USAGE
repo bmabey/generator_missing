@@ -1,0 +1,18 @@
+Description:
+    Stubs out a tested library. Pass the library name, either CamelCased or
+    under_scored.
+
+    This generates a library class in lib, and a unit test in test/unit.
+
+Examples:
+    `./script/generate library email_parser`
+
+        creates an EmailParser object and test:
+            Model:      app/models/email_parser.rb
+            Test:       test/unit/email_parser_test.rb
+
+    `./script/generate library EmailParser`
+
+        creates an EmailParser object and test:
+            Model:      app/models/email_parser.rb
+            Test:       test/unit/email_parser_test.rb
