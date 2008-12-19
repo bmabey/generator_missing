@@ -1,0 +1,9 @@
+Description:
+    Creates a new Generator extending Rails::Generator::Base
+
+Examples:
+    `./script/generate base_generator generator_name`
+
+        creates a generator extending Rails::Generator::Base in
+            lib/generators/generator_name/generator_name_generator.rb
+        with a usage file, a template directory and a README.txt template

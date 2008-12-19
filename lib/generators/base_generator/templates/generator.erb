@@ -1,0 +1,26 @@
+# This is a Generated Generator, you should update it.
+class <%= generator_class %> < Rails::Generator::Base
+  attr_accessor :runtime_args
+
+  def initialize(*runtime_args)
+    super(*runtime_args)
+    @runtime_args = runtime_args
+  end
+
+  def manifest
+    record do |m|
+      # this is how you create a directory. Make sure that all directories you need are created first
+      # m.directory "lib/generators/#{@runtime_args[0]}"
+
+      # templates
+      # these are the actual files you want to create.
+      #  The first argument is the
+      #  name of the template file under the templates directory that you want to use
+      #  as the erb template for this file.
+      #
+      #  The second argument is the location (from RAILS_ROOT) where this
+      #  file will be generated to
+      m.template 'readme.erb', "README"
+    end
+  end
+end
