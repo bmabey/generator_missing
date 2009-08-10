@@ -1,0 +1,16 @@
+Description:
+    Stubs out a library with corresponding spec file. Pass the library name, either CamelCased or
+    under_scored.
+
+    This generates a library class in lib, and a RSpec file in spec/lib
+
+Examples:
+    `./script/generate rspec_lib email_parser`
+
+        creates an EmailParser object and test:
+
+    `./script/generate rspec_lib EmailParser`
+
+        creates an EmailParser object and test:
+            Lib:        lib/email_parser.rb
+            Spec:       spec/lib/email_parser_spec.rb

@@ -2,3 +2,4 @@ doc
 doc/*
 rdoc
 rdoc/*
+*.sw?
